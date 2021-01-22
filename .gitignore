@@ -1,0 +1,10 @@
+# Folder
+
+node_modules/
+dist/
+
+# File
+
+.DS_Store
+Thumbs.db
+npm-debug.log
