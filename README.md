@@ -2,7 +2,7 @@
 
 ## Internet Explorer
 
-<details><summary><b>IE 7</あ></summary>
+<details><summary><b>IE 7</b></summary>
 
 ```css
 _:_, .selector {
