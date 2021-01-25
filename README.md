@@ -2,7 +2,7 @@
 
 ## Internet Explorer
 
-<details><summary><h3>IE 7</h3></summary>
+<details><summary><b>IE 7</あ></summary>
 
 ```css
 _:_, .selector {
@@ -32,7 +32,7 @@ _>_, .selector {
 
 </details>
 
-<details><summary><h3>IE 8</h3></summary>
+<details><summary><b>IE 8</b></summary>
 
 ```css
 @media \0 {
@@ -51,7 +51,7 @@ _>_, .selector {
 
 </details>
 
-<details><summary><h3>IE 9</h3></summary>
+<details><summary><b>IE 9</b></summary>
 
 ```css
 @media (min-width: 0\0) and (min-resolution: .001dpcm) {
@@ -63,7 +63,7 @@ _>_, .selector {
 
 </details>
 
-<details><summary><h3>IE 9+</h3></summary>
+<details><summary><b>IE 9+</b></summary>
 
 ```css
 @media (min-width: 0\0) and (min-resolution: +36dpi) {
@@ -75,7 +75,7 @@ _>_, .selector {
 
 </details>
 
-<details><summary><h3>IE 10</h3></summary>
+<details><summary><b>IE 10</b></summary>
 
 ```css
 _:-ms-lang(_), .selector {
@@ -85,7 +85,7 @@ _:-ms-lang(_), .selector {
 
 </details>
 
-<details><summary><h3>IE 10+</h3></summary>
+<details><summary><b>IE 10+</b></summary>
 
 ```css
 _:-ms-input-placeholder, :root .selector {
@@ -95,7 +95,7 @@ _:-ms-input-placeholder, :root .selector {
 
 </details>
 
-<details><summary><h3>IE 11</h3></summary>
+<details><summary><b>IE 11</b></summary>
 
 ```css
 _:not(_)::-ms-backdrop, .selector {
