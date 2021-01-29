@@ -640,22 +640,23 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
-<details><summary><b>Firefox 84</b></summary>
-
-```css
-@supports (not (touch-action: pinch-zoom)) {
-  _:not(_>_), _:is(_), .selector {
-    property: value;
-  }
-}
-```
-
-</details>
 <details><summary><b>Firefox 75</b></summary>
 
 ```css
 @supports (top: min(1%, 1%)) and (text-decoration-skip-ink: all) and (-moz-orient: block) and (not (color: canvas)) {
   .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Firefox 84</b></summary>
+
+```css
+@supports (not (touch-action: pinch-zoom)) {
+  _:not(_>_), _:is(_), .selector {
     property: value;
   }
 }
