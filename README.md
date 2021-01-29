@@ -1,7 +1,7 @@
 # CSS Hacks
 
-## Collection
 
+## Browsers
 ### Internet Explorer
 
 <details><summary><b>IE 7</b></summary>
