@@ -1,6 +1,8 @@
 # CSS Hacks
 
-## Internet Explorer
+## Collection
+
+### Internet Explorer
 
 <details><summary><b>IE 7</b></summary>
 
@@ -116,7 +118,7 @@ _:-ms-fullscreen, :root .selector {
 </details>
 
 
-## Firefox
+### Firefox
 
 <details><summary><b>Firefox 1+</b></summary>
 
