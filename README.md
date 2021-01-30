@@ -652,6 +652,18 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
+<details><summary><b>Firefox 80</b></summary>
+
+```css
+@supports (appearance: none) and (not (overflow: clip)) and (-moz-orient: block) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Firefox 81</b></summary>
 
 ```css
