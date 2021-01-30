@@ -652,6 +652,18 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
+<details><summary><b>Firefox 81</b></summary>
+
+```css
+@supports (overflow: clip) and (not selector(::file-selector-button)) and (-moz-orient: block) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Firefox 84</b></summary>
 
 ```css
