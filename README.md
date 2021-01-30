@@ -667,8 +667,8 @@ _::-moz-tree-row, _::slotted(_), .selector {
 <details><summary><b>Firefox 84</b></summary>
 
 ```css
-@supports (not (touch-action: pinch-zoom)) {
-  _:not(_>_), _:is(_), .selector {
+@supports selector(:not(_>_)) and selector(:is(_)) and (not (touch-action: pinch-zoom)) {
+  .selector {
     property: value;
   }
 }
