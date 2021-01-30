@@ -1,7 +1,29 @@
 # CSS Hacks
 
 
+## CLI
+
+### `npm run data` command
+
+```
+Command:
+  $ npm run data -- [OPTIONS]
+
+Options:
+  --mq, --media-query
+  --pe, --pseudo-element
+  --pc, --pseudo-class
+  --p,  --property
+  --v,  --value
+  --vp, --vendor-prefix
+
+Examples:
+  $ npm run data -- --pseudo-class is matches
+  $ npm run data -- --pc is matches '"-webkit-any(_)"'
+```
+
 ## Browsers
+
 ### Internet Explorer
 
 <details><summary><b>IE 7</b></summary>
