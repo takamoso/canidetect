@@ -709,3 +709,54 @@ _::-moz-tree-row, _::slotted(_), .selector {
 ```
 
 </details>
+
+
+### Safari, iOS Safari
+
+<details><summary><b>Safari 9+, iOS Safari 9+</b></summary>
+
+```css
+@supports (-webkit-marquee-speed: 0) and (paint-order: fill) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Safari 11+, iOS Safari 11+</b></summary>
+
+```css
+@supports (-webkit-marquee-speed: 0) and (font-optical-sizing: none) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Safari 13+, iOS Safari 13+</b></summary>
+
+```css
+@supports (-webkit-marquee-speed: 0) and (paint-order: fill) and (white-space: break-spaces) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Safari 14+, iOS Safari 14+</b></summary>
+
+```css
+@supports (-webkit-marquee-speed: 0) and (paint-order: fill) {
+  _:is(_), .selector {
+    property: value;
+  }
+}
+```
+
+</details>
