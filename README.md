@@ -698,6 +698,18 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
+<details><summary><b>Firefox 82</b></summary>
+
+```css
+@supports selector(::file-selector-button) and (not (background: conic-gradient(red, tan))) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Firefox 84</b></summary>
 
 ```css
