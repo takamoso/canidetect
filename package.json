@@ -1,0 +1,45 @@
+{
+  "name": "css-hacks",
+  "version": "0.0.1",
+  "description": "Collection of CSS hacks",
+  "engines": {
+    "node": "14.x"
+  },
+  "keywords": [
+    "css",
+    "hack",
+    "css hack",
+    "support",
+    "browser",
+    "compatibility",
+    "data"
+  ],
+  "author": "takamoso",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://takamoso@github.com/takamoso/css-hacks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/takamoso/css-hacks/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.8.3",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^5.0.0-beta.6",
+    "mini-css-extract-plugin": "^1.3.4",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.17.0",
+    "webpack-fix-style-only-entries": "^0.6.1",
+    "yargs": "^16.2.0"
+  },
+  "scripts": {
+    "data": "node index.mjs"
+  }
+}
