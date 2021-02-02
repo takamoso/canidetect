@@ -723,6 +723,269 @@ _::-moz-tree-row, _::slotted(_), .selector {
 </details>
 
 
+## Chrome, Chromium Edge, Opera
+
+<details><summary><b>Chrome 39+, Opera 26+</b></summary>
+
+```css
+_:lang(_), _::-internal-media-controls-overlay-cast-button, .selector {
+  property: value;
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 53, Opera 40</b></summary>
+
+```css
+@supports (filter: blur(0)) and (not (user-select: none)) and (not (justify-self: end)) and (not (-ms-ime-align: auto)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 54, Opera 41</b></summary>
+
+```css
+@supports (user-select: none) and (not (touch-action: pan-up)) and (not (scroll-snap-type: none)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 55, Opera 42</b></summary>
+
+```css
+@supports (touch-action: pan-up) and (not (touch-action: pinch-zoom)) and (-webkit-box-lines: single) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 56, Opera 43</b></summary>
+
+```css
+@supports (touch-action: pinch-zoom) and (not (caret-color: red)) and (not (-ms-ime-align: auto)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 57, Opera 44</b></summary>
+
+```css
+@supports (caret-color: red) and (not (line-break: auto)) and (not (display: contents)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 58, Opera 45</b></summary>
+
+```css
+@supports (line-break: auto) and (not (place-self: auto)) and (not (-ms-ime-align: auto)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 60+, Opera 47+</b></summary>
+
+```css
+_:lang(_), _::-internal-media-controls-overlay-cast-button, _:focus-within, .selector {
+  property: value;
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 62, Opera 49</b></summary>
+
+```css
+@supports (color: #0000) and (not (top: 1q)) and (not (display: contents)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 63, Opera 50</b></summary>
+
+```css
+@supports (top: 1q) and (not (transform-box: fill-box)) and (not (display: contents)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 64, Opera 51</b></summary>
+
+```css
+@supports (transform-box: fill-box) and (not (color: rgb(0 0 0))) and (not (display: contents)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 65, Opera 52</b></summary>
+
+```css
+@supports (color: rgb(0 0 0)) and (not (gap: 0)) and (not (scroll-snap-type: none)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 66, Opera 53</b></summary>
+
+```css
+@supports (gap: 0) and (-webkit-line-clamp: 1%) and (not (scroll-snap-type: none)) and (not (-ms-ime-align: auto)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 75, Opera 62</b></summary>
+
+```css
+@supports (not (overflow: -webkit-paged-x)) and (not (white-space: break-spaces)) and (line-break: auto) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 76, Opera 63</b></summary>
+
+```css
+@supports (white-space: break-spaces) and (not (content: ''/'')) and (not (line-break: anywhere)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 77, Opera 64</b></summary>
+
+```css
+@supports (overscroll-behavior-block: auto) and (not (opacity: 0%)) and (not (top: min(0%, 0%))) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 78, Opera 65</b></summary>
+
+```css
+@supports (opacity: 0%) and (not (top: min(0%, 0%))) and (not (text-underline-offset: 0)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 79, Chromium Edge 79, Opera 66</b></summary>
+
+```css
+@supports (top: min(0%, 0%)) and (not (line-break: anywhere)) and (white-space: break-spaces) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 80, Chromium Edge 80, Opera 67</b></summary>
+
+```css
+@supports (line-break: anywhere) and (not (color-scheme: dark)) and (not (image-orientation: none)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 81, Chromium Edge 81, Opera 68</b></summary>
+
+```css
+@supports (color-scheme: dark) and (image-orientation: none) and (not (-webkit-appearance: auto)) and (not (top: revert)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 83, Chromium Edge 83, Opera 69</b></summary>
+
+```css
+@supports (-webkit-appearance: auto) and (not (top: revert)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+<details><summary><b>Chrome 84, Chromium Edge 84, Opera 70</b></summary>
+
+```css
+@supports (appearance: auto) and (top: revert) and (-webkit-column-width: 0) and (not (counter-set: none)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
+
 ### Safari, iOS Safari
 
 <details><summary><b>Safari 9+, iOS Safari 9+</b></summary>
