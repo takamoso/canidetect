@@ -985,6 +985,18 @@ _:lang(_), _::-internal-media-controls-overlay-cast-button, _:focus-within, .sel
 
 </details>
 
+<details><summary><b>Chrome 85, Chromium Edge 85, Opera 71</b></summary>
+
+```css
+@supports (counter-set: none) and (not selector(::marker)) and (appearance: auto) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Safari, iOS Safari
 
