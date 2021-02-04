@@ -710,6 +710,18 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
+<details><summary><b>Firefox 83</b></summary>
+
+```css
+@supports (background: conic-gradient(red, tan)) and (not selector(:not(_>_))) and (-moz-orient: block) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Firefox 84</b></summary>
 
 ```css
