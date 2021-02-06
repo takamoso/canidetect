@@ -1009,6 +1009,18 @@ _:lang(_), _::-internal-media-controls-overlay-cast-button, _:focus-within, .sel
 
 </details>
 
+<details><summary><b>Chrome 86, Chromium Edge 86, Opera 72</b></summary>
+
+```css
+@supports selector(::marker) and (not (text-underline-offset: 0)) and (column-width: 0) and (not (-moz-column-width: 0)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Safari, iOS Safari
 
