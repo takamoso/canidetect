@@ -737,7 +737,7 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 ## Chrome, Chromium Edge, Opera
 
-<details><summary><b>Chrome 39+, Opera 26+</b></summary>
+<details><summary><b>Chrome 39+, Chromium Edge 79+, Opera 26+</b></summary>
 
 ```css
 _:lang(_), _::-internal-media-controls-overlay-cast-button, .selector {
