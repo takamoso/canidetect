@@ -985,6 +985,18 @@ _:lang(_), _::-internal-media-controls-overlay-cast-button, _:focus-within, .sel
 
 </details>
 
+<details><summary><b>Chrome 83+, Chromium Edge 83+, Opera 69+</b></summary>
+
+```css
+@supports selector(::-internal-media-controls-overlay-cast-button) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Chrome 84, Chromium Edge 84, Opera 70</b></summary>
 
 ```css
