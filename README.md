@@ -24,7 +24,7 @@ Examples:
 
 ## Browsers
 
-### Internet Explorer
+### Internet Explorer, Edge
 
 <details><summary><b>IE 7</b></summary>
 
@@ -133,6 +133,16 @@ _::-ms-backdrop, :root .selector {
 ```
 ```css
 _:-ms-fullscreen, :root .selector {
+  property: value;
+}
+```
+
+</details>
+
+<details><summary><b>Chromium Edge 79+</b></summary>
+
+```css
+_:lang(_), _::-ms-value, _::-internal-media-controls-overlay-cast-button, .selector {
   property: value;
 }
 ```
