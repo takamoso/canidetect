@@ -735,7 +735,7 @@ _::-moz-tree-row, _::slotted(_), .selector {
 </details>
 
 
-## Chrome, Chromium Edge, Opera
+### Chrome, Chromium Edge, Opera
 
 <details><summary><b>Chrome 39+, Chromium Edge 79+, Opera 26+</b></summary>
 
