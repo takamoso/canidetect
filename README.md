@@ -149,6 +149,18 @@ _:lang(_), _::-ms-value, _::-internal-media-controls-overlay-cast-button, .selec
 
 </details>
 
+<details><summary><b>Chromium Edge 83+</b></summary>
+
+```css
+@supports selector(::-ms-value) and selector(::-internal-media-controls-overlay-cast-button) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Firefox
 
