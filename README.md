@@ -149,6 +149,18 @@ _:lang(_), _::-ms-value, _::-internal-media-controls-overlay-cast-button, .selec
 
 </details>
 
+<details><summary><b>Chromium Edge 81</b></summary>
+
+```css
+@supports (color-scheme: dark) and (image-orientation: none) and (not (-webkit-appearance: auto)) and (not (top: revert)) {
+  _::-ms-value, .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Chromium Edge 83+</b></summary>
 
 ```css
