@@ -139,6 +139,18 @@ _:-ms-fullscreen, :root .selector {
 
 </details>
 
+<details><summary><b>Edge 12</b></summary>
+
+```css
+@supports (-ms-accelerator: true) and (not (color: unset)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Chromium Edge 79+</b></summary>
 
 ```css
