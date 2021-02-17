@@ -175,6 +175,18 @@ _:-ms-fullscreen, :root .selector {
 
 </details>
 
+<details><summary><b>Edge 15</b></summary>
+
+```css
+@supports (-ms-ime-align: auto) and (-webkit-text-stroke: initial) and (not (position: sticky)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Chromium Edge 79+</b></summary>
 
 ```css
