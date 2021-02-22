@@ -211,6 +211,18 @@ _:-ms-fullscreen, :root .selector {
 
 </details>
 
+<details><summary><b>Edge 18</b></summary>
+
+```css
+@supports (-ms-ime-align: auto) and (overscroll-behavior: auto) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Chromium Edge 79+</b></summary>
 
 ```css
