@@ -199,6 +199,18 @@ _:-ms-fullscreen, :root .selector {
 
 </details>
 
+<details><summary><b>Edge 17</b></summary>
+
+```css
+@supports (-ms-ime-align: auto) and (paint-order: fill) and (not (-webkit-mask: none)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Chromium Edge 79+</b></summary>
 
 ```css
