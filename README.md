@@ -151,7 +151,7 @@ _:-ms-fullscreen, :root .selector {
 
 </details>
 
-<details><summary><b>Edge 12+</b></summary>
+<details><summary><b>Edge 12-18</b></summary>
 
 ```css
 @supports (-ms-ime-align: auto) {
