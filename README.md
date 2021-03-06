@@ -175,6 +175,18 @@ _:-ms-fullscreen, :root .selector {
 
 </details>
 
+<details><summary><b>Edge 13-18</b></summary>
+
+```css
+@supports (-ms-ime-align: auto) and (top: unset) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Edge 14</b></summary>
 
 ```css
