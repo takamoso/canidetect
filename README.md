@@ -199,6 +199,18 @@ _:-ms-fullscreen, :root .selector {
 
 </details>
 
+<details><summary><b>Edge 14-18</b></summary>
+
+```css
+@supports (-ms-ime-align: auto) and (not (-ms-accelerator: true)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Edge 15</b></summary>
 
 ```css
