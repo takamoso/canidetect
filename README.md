@@ -876,6 +876,18 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
+<details><summary><b>Firefox 85</b></summary>
+
+```css
+@supports (touch-action: pinch-zoom) and (not selector(:autofill)) and (-moz-orient: block) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Chrome, Chromium Edge, Opera
 
