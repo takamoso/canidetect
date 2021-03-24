@@ -223,6 +223,18 @@ _:-ms-fullscreen, :root .selector {
 
 </details>
 
+<details><summary><b>Edge 15-18</b></summary>
+
+```css
+@supports (-ms-ime-align: auto) and (-webkit-text-stroke: initial) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Edge 16</b></summary>
 
 ```css
