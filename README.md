@@ -271,6 +271,18 @@ _:-ms-fullscreen, :root .selector {
 
 </details>
 
+<details><summary><b>Edge 17-18</b></summary>
+
+```css
+@supports (-ms-ime-align: auto) and (paint-order: fill) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Edge 18</b></summary>
 
 ```css
