@@ -317,6 +317,18 @@ _:lang(_), _::-ms-value, _::-internal-media-controls-overlay-cast-button, .selec
 
 </details>
 
+<details><summary><b>Chromium Edge 83</b></summary>
+
+```css
+@supports selector(::-ms-value) and (-webkit-appearance: auto) and (not (top: revert)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 <details><summary><b>Chromium Edge 83+</b></summary>
 
 ```css
