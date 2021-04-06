@@ -960,6 +960,18 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
+<details><summary><b>Firefox 87</b></summary>
+
+```css
+@supports (not (caption-side: left)) and (not selector(:user-valid)) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Chrome, Chromium Edge, Opera
 
