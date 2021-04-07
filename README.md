@@ -1295,6 +1295,18 @@ _:lang(_), _::-internal-media-controls-overlay-cast-button, _:focus-within, .sel
 
 </details>
 
+<details><summary><b>Chrome 89, Chromium Edge 89, Opera 75</b></summary>
+
+```css
+@supports selector(::target-text) and (not (overflow: clip)) and selector(::-internal-media-controls-overlay-cast-button) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Safari, iOS Safari
 
