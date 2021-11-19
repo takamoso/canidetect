@@ -1307,6 +1307,18 @@ _:lang(_), _::-internal-media-controls-overlay-cast-button, _:focus-within, .sel
 
 </details>
 
+<details><summary><b>Chrome 93, Chromium Edge 93, Opera 79</b></summary>
+
+```css
+@supports (accent-color: red) and (not (scrollbar-gutter: auto)) and selector(::-internal-media-controls-overlay-cast-button) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Safari, iOS Safari
 
