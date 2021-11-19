@@ -3,7 +3,7 @@ import yargs from 'yargs'
 import webpack from 'webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'
-import FixStyleOnlyEntriesPlugin from 'webpack-fix-style-only-entries'
+import RemoveEmptyScriptsPlugin from 'webpack-remove-empty-scripts'
 import TerserPlugin from 'terser-webpack-plugin'
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname)
@@ -104,6 +104,6 @@ export default {
       hash: true,
     }),
     new MiniCssExtractPlugin(),
-    new FixStyleOnlyEntriesPlugin(),
+    new RemoveEmptyScriptsPlugin(),
   ],
 }

@@ -36,7 +36,7 @@
     "sass-loader": "^12.3.0",
     "terser-webpack-plugin": "^5.2.5",
     "webpack": "^5.64.1",
-    "webpack-fix-style-only-entries": "^0.6.1",
+    "webpack-remove-empty-scripts": "^0.7.1",
     "yargs": "^17.2.1"
   },
   "scripts": {
