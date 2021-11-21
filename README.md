@@ -972,6 +972,18 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
+<details><summary><b>Firefox 88</b></summary>
+
+```css
+@supports selector(:user-valid) and (not (background: image-set(url() type("")))) and (-moz-orient: block) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Chrome, Chromium Edge, Opera
 
