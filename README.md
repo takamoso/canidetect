@@ -984,6 +984,18 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
+<details><summary><b>Firefox 89</b></summary>
+
+```css
+@supports (background: image-set(url() type(""))) and (not (background: -webkit-image-set(url() 1x))) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Chrome, Chromium Edge, Opera
 
