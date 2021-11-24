@@ -996,6 +996,18 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
+<details><summary><b>Firefox 90</b></summary>
+
+```css
+@supports (background: -webkit-image-set(url() 1x)) and (not (tab-size: 0)) and (-moz-orient: block) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Chrome, Chromium Edge, Opera
 
