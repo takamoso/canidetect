@@ -1008,6 +1008,18 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
+<details><summary><b>Firefox 91</b></summary>
+
+```css
+@supports (tab-size: 0) and (not (accent-color: red)) and (-moz-orient: block) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Chrome, Chromium Edge, Opera
 
