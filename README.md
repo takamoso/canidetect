@@ -1020,6 +1020,18 @@ _::-moz-tree-row, _::slotted(_), .selector {
 
 </details>
 
+<details><summary><b>Firefox 92</b></summary>
+
+```css
+@supports (accent-color: red) and (not (font-synthesis: small-caps)) and (-moz-orient: block) {
+  .selector {
+    property: value;
+  }
+}
+```
+
+</details>
+
 
 ### Chrome, Chromium Edge, Opera
 
