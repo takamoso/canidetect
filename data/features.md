@@ -9,6 +9,15 @@
 if (window.CSSPropertyRule) { ... }
 ```
 
+### @layer
+
+```css
+@supports (top: calc(1px / 0)) or (top: 1ic) { ... }
+```
+```js
+if (window.CSSLayerBlockRule) { ... }
+```
+
 ### @container
 
 ```css
