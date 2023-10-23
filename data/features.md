@@ -8,3 +8,12 @@
 ```js
 if (window.CSSPropertyRule) { ... }
 ```
+
+### @container
+
+```css
+@supports (top: 1cqi) { ... }
+```
+```js
+if (window.CSSContainerRule) { ... }
+```
